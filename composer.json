@@ -1,0 +1,41 @@
+{
+    "name": "codecoffeecreative/password",
+    "description": "Simple Password Generator",
+    "keywords": [
+        "password",
+        "generator"
+    ],
+    "homepage": "https://github.com/codecoffeecreative/password",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wahyu Kristianto",
+            "email": "wahyu@codecoffeecreative.com",
+            "homepage": "https://codecoffeecreative.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeCoffeeCreative\\Password\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodeCoffeeCreative\\Password\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
