@@ -34,7 +34,7 @@ $password->setUppercaseCharacters('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
 $password->generate();
 
 // Setup lowercase characters
-$password->setUppercaseCharacters('abcdefghijklmnopqrstuvwxyz');
+$password->setLowercaseCharacters('abcdefghijklmnopqrstuvwxyz');
 $password->generate();
 
 // Setup number characters
