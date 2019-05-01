@@ -38,11 +38,11 @@ $password->setLowercaseCharacters('abcdefghijklmnopqrstuvwxyz');
 $password->generate();
 
 // Setup number characters
-$password->setUppercaseCharacters('1234567890');
+$password->setNumberCharacters('1234567890');
 $password->generate();
 
 // Setup symbol characters
-$password->setUppercaseCharacters(' !"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~');
+$password->setSymbolCharacters(' !"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~');
 $password->generate();
 ```
 
